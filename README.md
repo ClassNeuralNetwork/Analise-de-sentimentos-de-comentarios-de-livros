@@ -24,6 +24,12 @@ Primeiramente, é necessário instalar as dependências. Para isso, basta execut
 ```bash
 pip install -r requirements.txt
 ```
+Em seguida, é preciso ativar o ambiente virtual:
+
+```bash
+source venv/bin/activate
+```
+Logo após ativar o ambiente virtual, execute todas as células do arquivo `sistema_de_avaliacao_de_sentimento.ipynb`. Você terá que fazer isso para gerar o modelo de avaliação de sentimetos retreinado (`modelo_sentimentos_livros`) juntamente com o dataset traduzido para o pt-br (`amazon_reviews_livros_traduzido.csv`).
 
 Depois, é só rodar o app:
 
