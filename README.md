@@ -6,7 +6,7 @@ O sistema de análise de sentimentos foi feito usando como base os comentários 
 
 Evidenciando um problema clássico de **classificação por multi-classe**, a tarefa do modelo pré-treinado exportado será processar o conjunto de treino que representa parte do *dataset* traduzido e devolver os valores crus das probabilidades, os quais serão passados por uma função de ativação *softmax* a qual será responsável por entregar um vetor contendo as probabilidades de cada uma das classes, dentre elas, a que tiver a maior probabilidade irá representar, consequentemente, a confiança do modelo em avaliar o sentimento daquele comentário. 
 
-**ACESSE O ANALISADOR DE SENTIMENTOS AQUI**: https://analisadores-de-sentimentos.streamlit.app/
+**ACESSE O ANALISADOR DE SENTIMENTOS AQUI**: https://sentimentos-comentarios-livros.streamlit.app/
 
 ---
 
