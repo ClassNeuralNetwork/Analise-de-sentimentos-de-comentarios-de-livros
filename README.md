@@ -6,6 +6,8 @@ O sistema de análise de sentimentos foi feito usando como base os comentários 
 
 Evidenciando um problema clássico de **classificação por multi-classe**, a tarefa do modelo pré-treinado exportado será processar o conjunto de treino que representa parte do *dataset* traduzido e devolver os valores crus das probabilidades, os quais serão passados por uma função de ativação *softmax* a qual será responsável por entregar um vetor contendo as probabilidades de cada uma das classes, dentre elas, a que tiver a maior probabilidade irá representar, consequentemente, a confiança do modelo em avaliar o sentimento daquele comentário. 
 
+**ACESSE O ANALISADOR DE SENTIMENTOS AQUI**: https://analisadores-de-sentimentos.streamlit.app/
+
 ---
 
 # Sumário 
@@ -14,6 +16,7 @@ Evidenciando um problema clássico de **classificação por multi-classe**, a ta
 - [Parte 1 : Tratamento do Dataset](#parte-1--tratamento-do-dataset)
 - [Parte 2 : Modelo](#parte-2--modelo)
 - [Parte 3 : App](#parte-3--app)
+- [Parte 4 : Deploy](#parte-4--deploy)
 
 ---
 
@@ -194,6 +197,12 @@ Vale mencionar que, nesse contexto, a confiança representa a probabilidade da c
 Logo após a fase de testes do modelo, o mesmo foi posto em uma aplicação web feita com *streamlit*, que permite ao usuário testar o modelo com frases da sua escolha. Sendo possível conferir as métricas do modelo no *app*.
 
 ![Image text](/assets/exemploanalisador.png)
+
+---
+
+## Parte 4 : Deploy 
+
+A fase de **deploy** do modelo consistiu em disponibilizar o modelo de análise de sentimentos para uso em produção, permitindo que usuários finais possam interagir com ele. Para isso, foi utilizado a plataforma **Streamlit Cloud Community**, que permite o deploy de aplicações web feitas com *streamlit*. 
 
 ---
 
